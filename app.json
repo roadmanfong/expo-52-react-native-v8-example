@@ -10,7 +10,8 @@
     "newArchEnabled": true,
     "jsEngine": "jsc",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.roadmanfong.expo52demo"
     },
     "android": {
       "adaptiveIcon": {
@@ -48,6 +49,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "3be6fdeb-343b-4ee0-a232-a7bceb29ac46"
+      }
     }
   }
 }
